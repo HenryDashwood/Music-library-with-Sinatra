@@ -1,0 +1,9 @@
+<h1>Add an artist to your catalogue<h1>
+
+<form action="/artists/<%= @artist.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+  <label for = "artist_name">Artist Name:</label>
+  <input type = "text" name = "artist_name">
+
+  <input type = "submit" name = "Find Artist">
+</form>
